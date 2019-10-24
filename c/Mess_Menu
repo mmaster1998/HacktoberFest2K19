@@ -1,0 +1,279 @@
+#include<stdio.h>
+main()
+{
+    int day,type,time;
+    do
+    {
+
+    printf("                           ==MESS MENU==                           \n");
+    printf("=====================================================================\n");
+    printf("1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday\n8.Exit");
+    printf("\nChoose any Day...:");
+
+    scanf("%d",&day);
+    if(day==8)
+        return;
+    if(day==1)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nBread 4Pcs,/Paratha, Butter, Jam, Milk, Banana\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRoti,Rice Dal,Salad, Achar, Curd, Gulab Jamun,Mix Veg");
+            }
+            else
+                printf("\nPyzza Paratha, Bhindi, Bhunjia, Dal, Rice ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Bread 4Pcs,/Paratha, Butter, Jam, Tea, Egg\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRoti,Rice Dal,Salad, Achar, Curd, Gulab Jamun,Veg Curry");
+            }
+            else
+                printf("\nPyzza Paratha, Bhindi, Bhunjia, Dal, Rice ");
+
+    }
+    if(day==2)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+    if(day==3)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+    if(day==4)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+    if(day==5)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+    if(day==6)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+    if(day==7)
+    {
+        printf("\n1. Veg\n2. Non Veg");
+        printf("\nChoose any Type...:");
+        scanf("%d",&type);
+        if(type==1)
+        {
+            printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\nMilk, Banana, Aloo Pratha\n");
+            }
+            else if(time==2)
+            {
+                printf("\nRice, Roti, Achar, Vegetable");
+            }
+            else
+                printf("\nMonday veg dinner ");
+        }
+        else if(type==2)
+             printf("\n1. Breakfast\n2 .Lunch\n3. Dinner");
+            printf("\nChoose any Time...:");
+            scanf("%d",&time);
+            if(time==1)
+            {
+                printf("\n Monday nonveg breakfast\n");
+            }
+            else if(time==2)
+            {
+                printf("\nMon Nonveg lunch");
+            }
+            else
+                printf("\nMonday non veg dinner ");
+
+    }
+
+}while(1);
+
+    return 0;
+}
